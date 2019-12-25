@@ -25,6 +25,8 @@ namespace S_Expression
 		{
 			String commandLine;
 			String result;
+			sExpression.DebugMode = false;
+
 			do
 			{
 				commandLine = Console.ReadLine();
