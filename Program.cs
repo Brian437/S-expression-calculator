@@ -21,19 +21,6 @@ namespace S_Expression
 
 		static void Main(string[] args)
 		{
-			/*
-            Console.WriteLine("Press any key");
-            ConsoleKeyInfo KeyPress = new ConsoleKeyInfo();
-            KeyPress = Console.ReadKey();
-            Console.WriteLine();
-            do
-            {
-                Console.WriteLine("That's not the any key! Thats the " + KeyPress.Key.ToString() + " Key. Let's try this again. Press the any key");
-                KeyPress = Console.ReadKey();
-                Console.WriteLine();
-            } while (KeyPress.Key.ToString() != "Escape");
-            Console.ReadKey();
-            */
 			String commandLine;
 			String result;
 			do
