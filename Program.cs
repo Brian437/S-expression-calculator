@@ -11,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using S_ExpressionFramework;
 
 namespace S_Expression
 {
@@ -18,6 +19,7 @@ namespace S_Expression
 	{
 		const bool DEBUG_MODE = false;
 		static bool continueLoop = true;
+		static S_ExpressionCalculatorBase sExpression = new S_ExpressionCalculatorBase();
 
 		static void Main(string[] args)
 		{
@@ -26,17 +28,21 @@ namespace S_Expression
 			do
 			{
 				commandLine = Console.ReadLine();
-				result = ReadCommandLine(commandLine);
-				Console.WriteLine(result);
+				if (commandLine.ToUpper() == "EXIT")
+				{
+					continueLoop = false;
+					Console.WriteLine("Closing program");
+				}
+				else
+				{
+					result = ReadCommandLine(commandLine);
+					Console.WriteLine(result);
+				}
+				
 			} while (continueLoop);
 		}
 		public static String ReadCommandLine(String originalCommandLine)
 		{
-			if (originalCommandLine.ToUpper() == "EXIT")
-			{
-				continueLoop = false;
-				return "Closing program";
-			}
 			try
 			{
 				String newCommandLine;

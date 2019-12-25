@@ -51,5 +51,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\S_ExpressionFramework\S_ExpressionFramework.csproj">
+      <Project>{afb9dfeb-7ce8-405a-8180-5594a9e1ed44}</Project>
+      <Name>S_ExpressionFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

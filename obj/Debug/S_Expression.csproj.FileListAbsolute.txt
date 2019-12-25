@@ -4,3 +4,9 @@ C:\Users\Brian\Google Drive\Visual Studio Projects\S_Expression\bin\Debug\S_Expr
 C:\Users\Brian\Google Drive\Visual Studio Projects\S_Expression\obj\Debug\S_Expression.exe
 C:\Users\Brian\Google Drive\Visual Studio Projects\S_Expression\obj\Debug\S_Expression.pdb
 C:\Users\Brian\Google Drive\Visual Studio Projects\S_Expression\obj\Debug\S_Expression.csprojResolveAssemblyReference.cache
+C:\Users\Brian\Documents\Github\S-Expression-calculator\S-Expression-calculator\bin\Debug\S_Expression.exe.config
+C:\Users\Brian\Documents\Github\S-Expression-calculator\S-Expression-calculator\bin\Debug\S_Expression.exe
+C:\Users\Brian\Documents\Github\S-Expression-calculator\S-Expression-calculator\bin\Debug\S_Expression.pdb
+C:\Users\Brian\Documents\Github\S-Expression-calculator\S-Expression-calculator\obj\Debug\S_Expression.csprojResolveAssemblyReference.cache
+C:\Users\Brian\Documents\Github\S-Expression-calculator\S-Expression-calculator\obj\Debug\S_Expression.exe
+C:\Users\Brian\Documents\Github\S-Expression-calculator\S-Expression-calculator\obj\Debug\S_Expression.pdb
