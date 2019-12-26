@@ -37,8 +37,8 @@ namespace S_ExpressionFramework
 		/// <summary>
 		/// Read command line
 		/// </summary>
-		/// <param name="originalCommandLine"></param>
-		/// <returns></returns>
+		/// <param name="originalCommandLine">Command line to read</param>
+		/// <returns>output data</returns>
 		public virtual String ReadCommandLine(String originalCommandLine)
 		{
 			try
@@ -66,7 +66,7 @@ namespace S_ExpressionFramework
 		/// This function will remove spaces before, after, and any extra spaces between words, making sure that only one space is between words.
 		/// </summary>
 		/// <param name="word"></param>
-		/// <returns></returns>
+		/// <returns>Trimmed string</returns>
 		public virtual String TrueTrim(String word)
 		{
 			word = word.Trim();
@@ -113,7 +113,7 @@ namespace S_ExpressionFramework
 		/// Calculates Bracket
 		/// </summary>
 		/// <param name="commandFunction">Command Line</param>
-		/// <returns></returns>
+		/// <returns>Command line with bracket function solved in string</returns>
 		public virtual String SolveBracket(String commandFunction)
 		{
 			int total;
@@ -145,7 +145,7 @@ namespace S_ExpressionFramework
 		/// Sums the total of numbers
 		/// </summary>
 		/// <param name="numbers">numbers</param>
-		/// <returns></returns>
+		/// <returns>sum</returns>
 		public virtual int AddNumbers(string[] numbers)
 		{
 			int total = 0;
@@ -159,7 +159,7 @@ namespace S_ExpressionFramework
 		/// Multiplys the numbers
 		/// </summary>
 		/// <param name="numbers">Numbers</param>
-		/// <returns></returns>
+		/// <returns>result number</returns>
 		public virtual int MultiplyNumbers(string[] numbers)
 		{
 			int total = 1;
@@ -173,7 +173,7 @@ namespace S_ExpressionFramework
 		/// Exponent
 		/// </summary>
 		/// <param name="numbers">numbers</param>
-		/// <returns></returns>
+		/// <returns>exponent Value</returns>
 		public virtual int Exponent(string[] numbers)
 		{
 			int theBase;
